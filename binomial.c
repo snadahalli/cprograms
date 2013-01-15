@@ -8,6 +8,7 @@
 * Original url: 
 * http://www.c-program-example.com/2011/10/c-program-to-find-binomial-coefficients.html
 * GitHub Url: 
+* https://github.com/snadahalli/cprograms/blob/6e0d0d2819ee1120b55eeaa26beda5852499d914/binomial.c
 *                      Happy Coding
 ***********************************************************/
  
