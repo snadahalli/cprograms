@@ -6,7 +6,7 @@
 * To find more C programs, do visit www.c-program-example.com
 * and browse!
 * Original URL: http://www.c-program-example.com/2012/02/k-r-c-programs-exercise-6-3.html
-* GitHub URL: https://github.com/snadahalli/cprograms/blob/master/knrc/knrc6_3.c
+* GitHub URL: 
 ***********************************************************/
 
 /** Write a cross-referencer program that prints a list of all words in a
