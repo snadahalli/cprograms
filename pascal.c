@@ -24,19 +24,19 @@ int main(){
     scanf("%d",&rows);
     blank = rows;
     
-    for(i=0;i<rows;i++){
+    for(i=0;i<rows;i++) {
 
-    num = 1; /* starting point */
+		num = 1; /* starting point */
 
-    /* print blank spaces */
-    for(j=0;j<blank;j++)
-    printf(" ");
-    --blank;
+		/* print blank spaces */
+		for(j=0;j<blank;j++)
+		printf(" ");
+		--blank;
 
-    for(j=0;j<=i;j++) {
-        printf("%d",num);
-        num = (num * (i-j)/(j+1));
-    }
-    printf("\n");
-}
+		for(j=0;j<=i;j++) {
+			printf("%d",num);
+			num = (num * (i-j)/(j+1));
+		}
+		printf("\n");
+	}
 }
