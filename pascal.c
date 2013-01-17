@@ -16,27 +16,22 @@
 /*
 * GitHub URL: https://github.com/snadahalli/cprograms/blob/master/pascal.c
 */
-#include<stdio.h>
-int main(){
-    int rows,i,j, blank, num;
 
+#include"stdio.h"
+int main() 
+{
+    int r, i, j, b, num;
     printf("How many lines do you want?");
-    scanf("%d",&rows);
-    blank = rows;
-    
-    for(i=0;i<rows;i++) {
-
-		num = 1; /* starting point */
-
-		/* print blank spaces */
-		for(j=0;j<blank;j++)
-		printf(" ");
-		--blank;
-
-		for(j=0;j<=i;j++) {
-			printf("%d",num);
-			num = (num * (i-j)/(j+1));
-		}
-		printf("\n");
-	}
+    scanf("%d", &r);
+    b = r;
+    for(i=0;i<r;i++) 
+    {
+        num = 1;
+        for(j=0;j<=i;j++) 
+        {
+            printf("%d", num);
+            num = (num * (i-j)/(j+1));
+        }
+        printf("\n");
+    }
 }
