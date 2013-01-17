@@ -14,7 +14,7 @@
 */
 
 /*
-* GitHub URL: 
+* GitHub URL: https://github.com/snadahalli/cprograms/blob/master/pascal.c
 */
 #include<stdio.h>
 int main(){
