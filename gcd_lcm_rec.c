@@ -14,7 +14,7 @@
 */ 
 
 /* Find this on GitHub: 
-*  
+*  https://github.com/snadahalli/cprograms/blob/master/gcd_lcm_rec.c
 */
 
 #include<stdio.h>
