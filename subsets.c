@@ -52,9 +52,9 @@ void main()
   		for(j=0;j<n-1;j++)
   			if(w[j]>w[j+1])
    			{
-    			temp=w[j];
-    			w[j]=w[j+1];
-    			w[j+1]=temp;
+    		    temp=w[j];
+    		    w[j]=w[j+1];
+    		    w[j+1]=temp;
    			}
    			
    			
